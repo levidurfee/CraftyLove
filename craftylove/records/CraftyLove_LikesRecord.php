@@ -1,6 +1,19 @@
 <?php
 namespace Craft;
 
+
+/**
+* Sets up the table needed to record likes.
+*
+* Creates a table with entryId (unique) and totalLikes. 
+*
+* @author Levi Durfee <junk@ween.io>
+* @copyright Copyright (c) 2016, Levi Durfee
+* @license https://raw.githubusercontent.com/levidurfee/CraftyLove/master/LICENSE
+* @link https://6c657669.info
+* @package craft.crafylove.plugin
+* @since 1.0.0
+*/
 class CraftyLove_LikesRecord extends BaseRecord
 {
     public function getTableName()
