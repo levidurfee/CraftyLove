@@ -22,4 +22,12 @@ class CraftyLovePlugin extends BasePlugin
     {
         return 'https://6c657669.info';
     }
+
+    /**
+     * @return string
+     */
+    public function getReleaseFeedUrl()
+    {
+        return 'https://raw.githubusercontent.com/levidurfee/CraftyLove/master/releases.json';
+    }
 }
