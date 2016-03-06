@@ -20,7 +20,7 @@ class CraftyLovePlugin extends BasePlugin
     */
     public function getName()
     {
-        return 'Crafty Love';
+        return Craft::t('Crafty Love');
     }
 
     /**
