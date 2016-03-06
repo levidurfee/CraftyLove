@@ -10,7 +10,7 @@ namespace Craft;
  * @copyright Copyright (c) 2016, Levi Durfee
  * @license https://raw.githubusercontent.com/levidurfee/CraftyLove/master/LICENSE
  * @link https://6c657669.info
- * @package craft.crafylove.plugin
+ * @package craft.craftylove.plugin
  * @since 1.0.0
  */
 class CraftyLovePlugin extends BasePlugin
