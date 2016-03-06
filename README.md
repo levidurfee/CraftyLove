@@ -33,7 +33,7 @@ I am using [FontAwesome](https://fortawesome.github.io/Font-Awesome/) for the he
         <input type="hidden" name="action" value="craftyLove/likes/addNewLike">
         <input type="hidden" name="redirect" value="/">
         <input type="hidden" name="id" value="{{ entry.id }}">
-        <button type="submit"><i class="fa fa-heart></i></button>
+        <button type="submit"><i class="fa fa-heart"></i></button>
     </form>
     </p>
 {% endfor %}
