@@ -39,7 +39,26 @@ I am using [FontAwesome](https://fortawesome.github.io/Font-Awesome/) for the he
 {% endfor %}
 ```
 
+## Updating
+
+You can update directly from the repo if you have SSH access to the server.
+
+```bash
+echo 'rm -Rf craftylove CraftyLove; git clone https://github.com/levidurfee/CraftyLove.git; cd CraftyLove; mv craftylove ../;cd ..' > updateCraftyLove
+chmod +x updateCraftyLove
+./updateCraftyLove
+```
+
+Then anytime you want to update from the repo, SSH in and go to the plugins directory, and run `./updateCraftyLove`.
+
 ## Changelog
+
+### 1.1.0
+
+* Added comments / docblocks
+* Added documents on updating directly from repo
+* Added getReleaseFeedUrl to help keep it updated
+* Return plugin name as translatable
 
 ### 1.0.0
 
